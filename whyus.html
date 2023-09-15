@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHY US</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-100: #cda45e;
+            --primary-200: #0c0b09;
+            --white: #ffffff;
+            --opacity-down: #cda45ede;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .justify-content-between {
+            justify-content: space-between;
+        }
+
+        .align-item-center {
+            align-items: center;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        ul,
+        ol {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .text-white {
+            color: var(--white);
+        }
+
+        .text-primary-100 {
+            color: var(--primary-100);
+        }
+
+        .open {
+            font-family: 'Open Sans Condensed';
+        }
+
+        .raleway {
+            font-family: 'Raleway';
+        }
+
+        .w-50 {
+            width: 50%;
+            padding: 15px;
+        }
+
+        .padding50 {
+            padding: 50px;
+        }
+
+        .why-us-bg {
+            background-color: var(--primary-200);
+        }
+
+        .section-title h2 {
+            font-size: 22px;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: 500;
+            letter-spacing: 2px;
+            position: relative;
+        }
+
+        .section-title h2::after {
+            position: absolute;
+            content: "";
+            width: 150px;
+            height: 1px;
+            background-color: rgba(255, 255, 255, 0.357);
+            top: 15px;
+            left: 90px;
+        }
+        .w-33{
+            margin: 10px;
+            width: 100%;
+        }
+        .why-us p {
+            font-size: 36px;
+            color: var(--primary-100);
+            padding: 20px 0;
+            font-weight: 600;
+        }
+
+        .why-box .w-33 {
+            background-color: rgba(49, 48, 48, 0.231);
+            padding: 50px 30px;
+            transition: all 0.5s;
+            border-radius: 5px;
+        }
+
+        .why-box .w-33 h2 {
+            color: var(--primary-100);
+            padding: 10px 0;
+            transition: all 0.5s;
+        }
+
+        .why-box .w-33 h3 {
+            font-size: 25px;
+            color: rgba(255, 255, 255, 0.728);
+            padding-bottom: 20px;
+        }
+
+        .why-box .w-33 p {
+            color: rgba(255, 255, 255, 0.728);
+            font-size: 20px;
+        }
+
+        .why-box .w-33:hover {
+            background-color: var(--primary-100);
+            padding: 30px 30px 70px 30px;
+        }
+
+        .why-box .w-33:hover h2 {
+            color: rgba(255, 255, 255, 0.728);
+        }
+    </style>
+</head>
+
+<body>
+    <section class="why-us-bg padding50">
+        <div class="container">
+            <div class="why-us wow animate__animated animate__slideInUp">
+                <div class="section-title open">
+                    <h2>why us</h2>
+                </div>
+                <p class="raleway">Why Choose Our Restaurant</p>
+            </div>
+            <div class="why-box row">
+                <div class="w-33 col-lg-4 col-md-6 col-sm-12 wow animate__animated animate__zoomIn">
+                    <h2 class="open">01</h2>
+                    <h3 class="raleway">Lorem Ipsum</h3>
+                    <P class="open">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero
+                        placeat</P>
+                </div>
+                <div class="w-33 col-lg-4 col-md-6 col-sm-12 wow animate__animated animate__zoomIn">
+                    <h2 class="open">02</h2>
+                    <h3 class="raleway">Repellat Nihil</h3>
+                    <P class="open">Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel
+                        dire leno para dest</P>
+                </div>
+                <div class="w-33 col-lg-4 col-md-6 col-sm-12 wow animate__animated animate__zoomIn">
+                    <h2 class="open">03</h2>
+                    <h3 class="raleway">Ad ad velit qui</h3>
+                    <P class="open">Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel
+                        nam quis</P>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

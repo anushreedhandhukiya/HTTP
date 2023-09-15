@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-100: #cda45e;
+            --primary-200: #0c0b09;
+            --white: #ffffff;
+            --opacity-down: #cda45ede;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .justify-content-between {
+            justify-content: space-between;
+        }
+
+        .align-item-center {
+            align-items: center;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        ul,
+        ol {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .text-white {
+            color: var(--white);
+        }
+
+        .text-primary-100 {
+            color: var(--primary-100);
+        }
+
+        .open {
+            font-family: 'Open Sans Condensed';
+        }
+
+        .raleway {
+            font-family: 'Raleway';
+        }
+
+        .padding50 {
+            padding: 50px;
+        }
+
+        .overlay {
+            background-color: rgb(24, 24, 24);
+        }
+
+        .banner .w-50 h2 {
+            color: #ffffff;
+            font-size: 55px;
+            padding: 0 15px;
+            margin-top: 250px;
+            letter-spacing: 2px;
+        }
+
+        .banner .w-50 span {
+            color: #cda45e;
+        }
+
+        .banner .w-50 p {
+            color: #ffffff;
+            font-size: 22px;
+            padding: 0 15px;
+        }
+
+        .banner .w-50 button {
+            border: 3px solid #cda45e;
+            padding: 15px 30px;
+            background-color: transparent;
+            color: #ffffff;
+            border-radius: 30px;
+            font-size: 15px;
+            margin: 40px 15px;
+            transition: all 0.5s;
+            margin-bottom: 250px;
+        }
+
+        .banner .w-50 button:hover {
+            background-color: #cda45e;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="overlay">
+        <div class="container">
+            <div class="banner row wow animate__animated animate__zoomIn">
+                <div class="w-50 col-lg-8">
+                    <h2 class="open">Welcome to <span>Restaurantly</span></h2>
+                    <p class="raleway">Delivering great food for more than 18 years!</p>
+                    <button class="open">OUR MENU</button>
+                    <button class="open">BOOK A TABLE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
